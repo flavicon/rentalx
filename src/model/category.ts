@@ -1,4 +1,4 @@
-import {v4 as uuidv4} from "uuid";
+import { v4 as uuidv4 } from "uuid";
 
 class Category {
   id?: string;
@@ -8,9 +8,9 @@ class Category {
 
   constructor() {
     if (!this.id) {
-      this.id = uuidv4 ();
+      this.id = uuidv4();
     }
   }
 }
 
-export { Category }
+export { Category };
